@@ -1,0 +1,15 @@
+[package]
+name = "Passwordsend"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Passwordsend = '0x652824228714956af40910fc98e8edd2530b1988e916b3be506e901c440b5c6c'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
